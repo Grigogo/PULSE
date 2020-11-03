@@ -37,8 +37,11 @@
     }
     &__content {
         margin-top: 60px;
-        display: flex;
+        display: none;
         flex-wrap: wrap;
+        &_active {
+            display: flex;
+        }
     }
     &-item {
         width: 300px;
@@ -47,6 +50,10 @@
         padding: 20px 20px 26px 20px;
         overflow: hidden;
         margin-bottom: 20px;
+        margin-left: 20px;
+        &:nth-child(3n-2) {
+            margin-left: 0;
+        }
         &__img {
             display: block;
             margin: 0 auto;
@@ -146,6 +153,21 @@
                     left: -14px;
                     top: 8px;
                 }
+            }
+        }
+        &__back { position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(calc(-50% - 19px));
+            display: block;
+            color: $main-color;
+            font-size: 14px;
+            font-weight: 500;
+            text-align: center;
+            text-decoration: underline;
+            text-transform: uppercase;
+            &:hover {
+                color: $main-color;
             }
         }
     }

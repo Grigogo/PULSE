@@ -7,8 +7,7 @@ const slider = tns({
     autoplay: false,
     responsive: {
       576: {
-        edgePadding: -5,
-        edgeMargin: 20,
+        edgePadding: 0,
         gutter: 0,
         items: 1,
         center: true,

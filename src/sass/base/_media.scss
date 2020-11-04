@@ -57,14 +57,14 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .header__official {
         display: none;
     }
-    .carousel {
+/*     .carousel {
         margin-left: 20px;
         margin-right: 20px;
-    }
+    } */
     .catalog__tab {
         width: 170px;
         height: 40px;
@@ -76,6 +76,14 @@
         justify-content: center;
         img {
             margin-right: 0;
+        }
+    }
+    .carousel__inner {
+        width: 100%;
+    }
+    .tns-item {
+        img {
+            max-width: 576px;
         }
     }
 }

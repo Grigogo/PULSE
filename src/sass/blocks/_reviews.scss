@@ -1,0 +1,33 @@
+.reviews {
+    padding-bottom: 71px;
+    &__card {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+    &__img {
+        display: block;
+        width: 169px;
+        height: 169px;
+        margin-right: 60px;
+    }
+    &__name {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__subheader {
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+    &__descr {
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+        margin-top: 19px;
+    }
+
+}

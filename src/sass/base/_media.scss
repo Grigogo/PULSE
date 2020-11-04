@@ -1,0 +1,81 @@
+@media (max-width: 992px) {
+    .header {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .promo__wrapper {
+        margin-right: 40px;
+    }
+    .title_left {
+        margin-left: 40px;
+    }
+    .consultation__descr {
+        margin-left: 40px;
+    }
+    .feed-form {
+        margin-left: 40px;
+    }
+    .reviews__card {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .prev {
+        display: none;
+    }
+    .next {
+        display: none;
+    }
+    .catalog__content {
+        justify-content: center;
+    }
+    .catalog-item {
+        &:nth-child(3n-2) {
+            margin-left: 20px;
+        }
+    }
+}   
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .promo__wrapper {
+        margin-right: 0;
+        align-items: center;
+    }
+    .advantages__wrap {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .advantages__elements {
+        max-width: 300px;
+        img {
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header__official {
+        display: none;
+    }
+    .carousel {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .catalog__tab {
+        width: 170px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .reviews__card {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img {
+            margin-right: 0;
+        }
+    }
+}

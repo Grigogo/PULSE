@@ -8,7 +8,9 @@
   },
   "author": "Grigogo",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "tiny-slider": "^2.9.3"
+  },
   "devDependencies": {
     "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
@@ -19,5 +21,4 @@
     "gulp-sass": "^4.1.0",
     "node-sass": "^4.14.1"
   }
-  
 }

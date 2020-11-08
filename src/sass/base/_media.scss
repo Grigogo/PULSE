@@ -101,4 +101,63 @@
     .feed-form_ml5 {
         margin-left: 5px;
     }
+    .footer__info {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .header {
+        margin-left: 20px;
+    }
+    .header__logo {
+        width: 160px;
+    }
+    .header__contacts {
+        font-size: 14px;
+    }
+    .promo__header {
+        margin-left: 20px;
+        font-size: 36px;
+    }
+    .promo__subheader {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .promo__icons {
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .catalog__tabs {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .catalog__tab {
+        width: 250px;
+        margin-bottom: 15px;
+    }
+    .catalog__content {
+        margin-top: 20px;
+    }
+    .carousel {
+        padding: 20px 0;
+    }
+    .carousel__inner {
+        width: 100%;
+    }
+    .tns-item {
+        img {
+            max-width: 400px;
+        }
+    }
+    .footer__info {
+        width: 100%;
+    }
+    .modal__close {
+        position: absolute!important;
+        top: 2px!important;
+        right: 2px!important;
+    }
 }

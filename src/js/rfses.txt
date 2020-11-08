@@ -1,0 +1,19 @@
+const slider = tns({
+  controls: false,
+  nav: false,
+  container: '.carousel__inner',
+  items: 1,
+  slideBy: 'page',
+  autoplay: false,
+  responsive: {
+    576: {
+      edgePadding: 0,
+      gutter: 0,
+      items: 1,
+      center: true,
+      autoHeight: true,
+      autoWidth: false,
+      speed: 500
+    }
+  }
+});
